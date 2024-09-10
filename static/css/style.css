@@ -25,6 +25,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 /* Cabeçalho */
@@ -67,10 +68,11 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
+    
 }
 
 nav ul li a:hover {
-    color: #ee0f07; /* Cor laranja para hover */
+    color: #ee0707; /* Cor laranja para hover */
 }
 
 /* Seção Principal */
@@ -80,7 +82,7 @@ main {
 }
 
 .hero {
-    background: #ff4747; /* Cor de fundo laranja */
+    background: #7e3d00; /* Cor de fundo laranja */
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -110,7 +112,7 @@ main {
 }
 
 .btn:hover {
-    background: #47ffc2; /* Cor de fundo do botão no hover */
+    background: #33ff00; /* Cor de fundo do botão no hover */
     color: #fff;
 }
 
@@ -167,6 +169,11 @@ main {
     margin-top: 10px;
 }
 
+.btn:hover {
+    background: #33ff00; /* Cor de fundo do botão no hover */
+    color: #fff;
+}
+
 /* Rodapé */
 footer {
     background: #333;
@@ -174,4 +181,38 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: auto; /* Garante que o rodapé vai para o fundo da página */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adiciona espaçamento de 20px entre os ícones */
+    margin: 0; /* Remove margem para alinhamento */
+    padding: 0; /* Remove padding para alinhamento */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center; /* Centraliza o ícone e o texto verticalmente */
+}
+
+nav ul li a i {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+nav ul li a:hover {
+    color: #ee07e2; /* Cor laranja para hover */
+}
+
+
+title:hover {
+    color: #ee07e2; /* Cor laranja para hover */
 }
